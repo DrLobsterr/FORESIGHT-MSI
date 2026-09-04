@@ -6,10 +6,6 @@ images of wheat grain sections. This repository accompanies the manuscript
 “Refining the functional dynamics of deoxynivalenol in wheat Fusarium head
 blight via MALDI-TOF-MSI and deep learning”.
 
-> Release status: pre-publication draft. Replace all `TO_BE_ADDED` entries,
-> choose the final license, and archive the model weights before making this
-> repository public.
-
 ## What is included
 
 - representative-ion selection from imzML data;
@@ -175,12 +171,15 @@ training runs with archived checkpoints. The public names are 14d1, 17d1, and
 17d2. Historical development-directory labels are not used as scientific group
 names.
 
-## Citation, code archive, and license
+## Citation
 
-- Manuscript DOI: `TO_BE_ADDED`
-- Archived software DOI: `TO_BE_ADDED`
-- Checkpoint archive: `TO_BE_ADDED`
-- License: `TO_BE_CONFIRMED` (GPL-3.0 is recommended for reciprocal sharing)
+If you use FORESIGHT-MSI, please cite the accompanying manuscript:
 
-Complete `CITATION.cff.template`, rename it to `CITATION.cff`, and add the
-chosen license text before the first public release.
+> Tang, M., He, W., Tian, Y., Sun, S., Zhao, C., Guo, M., Yan, Z., Chu, Q.,
+> Liu, N., Yu, D., Zhang, J., and Wu, A. (2026). Refining the functional
+> dynamics of deoxynivalenol in wheat Fusarium head blight via MALDI-TOF-MSI
+> and deep learning. Manuscript under review at *Food Chemistry*.
+
+Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff).
+Research-data and model-checkpoint access are described in
+[data/README.md](data/README.md) and [checkpoints/README.md](checkpoints/README.md).
