@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "foresight-msi"
+version = "1.0.0"
+description = "Fourier-domain reconstruction of MALDI-TOF-MSI ion images"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "numpy>=1.21",
+  "pillow>=9.1",
+  "scikit-image>=0.19",
+  "torch>=1.13",
+  "tqdm>=4.62"
+]
+
+[project.optional-dependencies]
+training = [
+  "scikit-learn>=1.0",
+  "torchvision>=0.14"
+]
+imzml = [
+  "pandas>=1.3",
+  "pyimzml>=1.5"
+]
+all = [
+  "pandas>=1.3",
+  "pyimzml>=1.5",
+  "scikit-learn>=1.0",
+  "torchvision>=0.14"
+]
+
+[tool.setuptools.packages.find]
+include = ["foresight*"]

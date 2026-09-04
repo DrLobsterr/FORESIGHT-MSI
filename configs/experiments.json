@@ -1,0 +1,14 @@
+{
+  "manuscript_models": {
+    "14d1": {"image_count": 1000, "mask_ratios": [0.4, 0.5, 0.6, 0.7]},
+    "17d1": {"image_count": 1200, "mask_ratios": [0.4, 0.5, 0.6, 0.7]},
+    "17d2": {"image_count": 900, "mask_ratios": [0.4, 0.5, 0.6, 0.7]}
+  },
+  "test_mask_ratios": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7],
+  "split": {"train": 0.7, "validation": 0.15, "test": 0.15, "seed": 42},
+  "historical_runtime": {
+    "python": "3.7.11",
+    "pytorch": "1.13.1+cu117",
+    "gpu": "NVIDIA GeForce RTX 3090"
+  }
+}

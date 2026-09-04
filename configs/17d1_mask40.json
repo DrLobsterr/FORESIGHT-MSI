@@ -1,0 +1,39 @@
+{
+  "experiment": {
+    "model_name": "17d1",
+    "manuscript_group": "17 dpi",
+    "mask_ratio": 0.4,
+    "mask_ratio_basis": "detected tissue foreground",
+    "mask_algorithm": "legacy_v4_random_blocks",
+    "seed": 42,
+    "legacy_file_order": true,
+    "expected_image_count": 1200
+  },
+  "model": {
+    "img_size": 256,
+    "in_channels": 3,
+    "out_channels": 3,
+    "hidden_dim": 128,
+    "num_blocks": 4,
+    "modes": 8,
+    "dropout": 0.1
+  },
+  "training": {
+    "batch_size": 16,
+    "num_epochs": 100,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "min_learning_rate": 1e-06,
+    "warmup_epochs": 5,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "early_stopping_patience": 7,
+    "perceptual_weight": 0.5,
+    "legacy_detached_perceptual": true,
+    "use_amp": false,
+    "num_workers": 2,
+    "training_augmentation": "horizontal flip with probability 0.3"
+  }
+}
