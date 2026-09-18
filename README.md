@@ -2,9 +2,13 @@
 
 FORESIGHT (Fourier-optimized Reconstruction of Spatial Imaging for
 High-resolution Tissue) reconstructs damaged MALDI-TOF mass-spectrometry ion
-images of wheat grain sections. This repository accompanies the manuscript
-“Refining the functional dynamics of deoxynivalenol in wheat Fusarium head
-blight via MALDI-TOF-MSI and deep learning”.
+images of wheat grain sections. This repository accompanies the published article
+[“Refining the functional dynamics of deoxynivalenol in wheat Fusarium head
+blight via MALDI-TOF-MSI and deep learning”](https://doi.org/10.1016/j.foodchem.2026.151138).
+
+**Food Chemistry, 529 (2026), Article 151138.**
+Available online: 13 September 2026.
+DOI: [10.1016/j.foodchem.2026.151138](https://doi.org/10.1016/j.foodchem.2026.151138).
 
 ## What is included
 
@@ -173,13 +177,15 @@ names.
 
 ## Citation
 
-If you use FORESIGHT-MSI, please cite the accompanying manuscript:
+If you use FORESIGHT-MSI, please cite the published article:
 
 > Tang, M., He, W., Tian, Y., Sun, S., Zhao, C., Guo, M., Yan, Z., Chu, Q.,
-> Liu, N., Yu, D., Zhang, J., and Wu, A. (2026). Refining the functional
+> Liu, N., Yu, D., Zhang, J., & Wu, A. (2026). Refining the functional
 > dynamics of deoxynivalenol in wheat Fusarium head blight via MALDI-TOF-MSI
-> and deep learning. Manuscript under review at *Food Chemistry*.
+> and deep learning. *Food Chemistry, 529*, Article 151138.
+> https://doi.org/10.1016/j.foodchem.2026.151138
 
-Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff).
-Research-data and model-checkpoint access are described in
+Citation metadata is provided in [CITATION.cff](CITATION.cff), and a BibTeX
+entry is available in [CITATION.bib](CITATION.bib).
+For research-data and model-checkpoint information, see
 [data/README.md](data/README.md) and [checkpoints/README.md](checkpoints/README.md).

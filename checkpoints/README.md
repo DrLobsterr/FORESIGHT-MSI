@@ -11,7 +11,10 @@ size: 102493559 bytes
 sha256: 990ac8dc7270b9a1acc35a89a18af7bc7ef4cdaac96c1f35baec08327bfb122f
 ```
 
-The checkpoint is available from the corresponding author upon reasonable
-request. Verify the file size and SHA-256 value before use.
+No public checkpoint download is linked in this repository. For checkpoint-access
+enquiries, contact the corresponding author of the
+[published article](https://doi.org/10.1016/j.foodchem.2026.151138),
+Aibo Wu, at [abwu@sinh.ac.cn](mailto:abwu@sinh.ac.cn).
+Verify the file size and SHA-256 value before use.
 
 Do not rename or publish a different checkpoint under this checksum.

@@ -1,9 +1,7 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying manuscript."
+message: "If you use FORESIGHT-MSI, please cite the published article below."
 title: "FORESIGHT-MSI"
 type: software
-version: 1.0.0
-date-released: 2026-09-04
 repository-code: "https://github.com/DrLobsterr/FORESIGHT-MSI"
 authors:
   - family-names: "Tang"
@@ -35,6 +33,10 @@ preferred-citation:
   title: "Refining the functional dynamics of deoxynivalenol in wheat Fusarium head blight via MALDI-TOF-MSI and deep learning"
   journal: "Food Chemistry"
   year: 2026
+  volume: "529"
+  number: "151138"
+  doi: "10.1016/j.foodchem.2026.151138"
+  url: "https://doi.org/10.1016/j.foodchem.2026.151138"
   authors:
     - family-names: "Tang"
       given-names: "Muhai"
